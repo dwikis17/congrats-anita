@@ -11,7 +11,7 @@ import song from './song.mp3'
 const App = () => {
   return (
     <div className="container">
-      <audio src={song} controls autoplay={true} loop/>
+  
       <motion.div 
         className="header" 
         initial={{ opacity: 0 }} 
@@ -20,7 +20,7 @@ const App = () => {
       >
         <h1>CONGRATS, ANITAA HIDAYAT YG CANTIKkKK BAIK DAN MEMPESONA</h1>
       </motion.div>
-
+      <audio src={song} controls autoplay={true} loop/>
       <motion.img 
         src={anita} 
         alt="Graduation Hat" 
